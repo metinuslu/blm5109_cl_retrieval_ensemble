@@ -1,0 +1,31 @@
+# https://jupyter.org/install
+# pip install jupyterlab
+
+# https://www.tensorflow.org/install
+# pip install tensorflow
+
+# https://pytorch.org/
+# pip install torch torchvision torchaudio
+# pip install python-dotenv
+# pip install pandas
+
+# pip install scikit-learn
+# pip install matplotlib
+# pip install seaborn
+
+# pip install -r requirements.txt
+
+# jupyterlab
+# tensorflow
+# torch torchvision torchaudio
+# python-dotenv
+# pandas
+# scikit-learn
+# matplotlib
+# seaborn
+
+
+pip install -U sentence-transformers
+pip install pyarrow
+
+pip install --upgrade pandas pyarrow fastparquet
