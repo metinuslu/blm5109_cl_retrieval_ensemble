@@ -40,22 +40,33 @@ jupyter notebook
     - Turkish Instructions: https://huggingface.co/datasets/merve/turkish_instructions  
 
 ## Preprocess & Modelling
-    - Embedding Models
-      - [sentence-transformers/all-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2)
-      - [jinaai/jina-embeddings-v3](https://huggingface.co/jinaai/jina-embeddings-v3)
-      - [intfloat/multilingual-e5-large-instruct](https://huggingface.co/intfloat/multilingual-e5-large-instruct)
-      - [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)
-      - [thenlper/gte-large](https://huggingface.co/thenlper/gte-large)
-      - [ytu-ce-cosmos/turkish-colbert](https://huggingface.co/ytu-ce-cosmos/turkish-colbert)
+  - Dataset MetaData
+    - Columns: Soru[Talimat, Giris], Cevap
+    - Shape: 2 x 2000
 
-    - Retrieval Ensemble
-      - Ret. Ens. - 1
-      - Ret. Ens. - 2
-      - Ret. Ens. - 3
+  - Embedding Models
+    - [sentence-transformers/all-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2)
+    - [jinaai/jina-embeddings-v3](https://huggingface.co/jinaai/jina-embeddings-v3)
+    - [intfloat/multilingual-e5-large-instruct](https://huggingface.co/intfloat/multilingual-e5-large-instruct)
+    - [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)
+    - [ytu-ce-cosmos/turkish-colbert](https://huggingface.co/ytu-ce-cosmos/turkish-colbert)
+    - [thenlper/gte-large](https://huggingface.co/thenlper/gte-large)
 
-    - Turkish Instructions
-      - Embedding Code: Retrieval_Embedding-v2.ipynb
-      - Ensemble Code: Retrieval_Ensemble-v2.ipynb
+  - Vector Distance
+    - Cosine Similarity
+    - ![Cosine Similarity](https://storage.googleapis.com/lds-media/images/cosine-similarity-vectors.original.jpg "Cosine Similarity")
+  - Embedding Accuracy
+    - Top-1
+    - Top-5
+
+  - Retrieval Ensemble
+    - Ret. Ens. - 1: Majority Voting
+    - Ret. Ens. - 2: Average Cosine 
+    - Ret. Ens. - 3: Weighted Average Cosine
+
+  - Turkish Instructions
+    - Embedding Code: Retrieval_Embedding-v{1..2}.ipynb
+    - Ensemble Code: Retrieval_Ensemble-v3{1..2}.ipynb
 
 ## Contact
     - Ahmed Ugur - 23501027  
