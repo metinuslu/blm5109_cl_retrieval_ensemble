@@ -38,6 +38,7 @@ jupyter notebook
 
 ## Datasets
     - Turkish Instructions: https://huggingface.co/datasets/merve/turkish_instructions  
+    - Bonus Dataset: Databricks Dolly 15K TR: https://huggingface.co/datasets/atasoglu/databricks-dolly-15k-tr
 
 ## Preprocess & Modelling
   - Dataset MetaData
@@ -65,8 +66,12 @@ jupyter notebook
     - Ret. Ens. - 3: Weighted Average Cosine
 
   - Turkish Instructions
-    - Embedding Code: Retrieval_Embedding-v{1..2}.ipynb
-    - Ensemble Code: Retrieval_Ensemble-v3{1..2}.ipynb
+    - Embedding Code
+      - Retrieval_Embedding-v{1..2}.ipynb
+      - Retrieval_Embedding-Bonus.ipynb
+    - Ensemble Code
+      - Retrieval_Ensemble-v3{1..2}.ipynb
+      - Retrieval_Ensemble-Bonus.ipynb
 
 ## Contact
     - Ahmed Ugur - 23501027  
